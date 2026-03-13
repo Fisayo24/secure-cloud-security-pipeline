@@ -1,5 +1,4 @@
 
-:providers.tf
 :variables.tf
 :pipeline
 :github-actions.yml
