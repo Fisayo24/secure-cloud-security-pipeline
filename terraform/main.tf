@@ -1,4 +1,4 @@
-secure-cloud-security-pipeline
+
 :main.tf
 :providers.tf
 :variables.tf
