@@ -17,7 +17,7 @@ secure-cloud-security-pipeline
 │
 ├── diagrams
 │
-└── README.md
+
 
 resource "aws_s3_bucket" "secure_pipeline_logs" {
   bucket = "secure-pipeline-logs-demo-12345"
