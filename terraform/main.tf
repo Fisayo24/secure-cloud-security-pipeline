@@ -1,5 +1,4 @@
 
-:variables.tf
 :pipeline
 :github-actions.yml
 :security
