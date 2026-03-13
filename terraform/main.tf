@@ -1,14 +1,14 @@
-secure-cloud-security-pipeline
-     main.tf
-     providers.tf
-     variables.tf
-     pipeline
-     github-actions.yml
-     security
-     tfsec-scan.yml
-     iam-policies
-     monitoring
-     cloudwatch-alerts.tf
+:secure-cloud-security-pipeline
+: main.tf
+:providers.tf
+:variables.tf
+:pipeline
+:github-actions.yml
+:security
+: tfsec-scan.yml
+:iam-policies
+:monitoring
+:cloudwatch-alerts.tf
 
 resource "aws_s3_bucket" "secure_pipeline_logs" {
   bucket = "secure-pipeline-logs-demo-12345"
