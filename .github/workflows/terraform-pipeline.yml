@@ -2,8 +2,7 @@ name: Secure Terraform Pipeline
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
 
 jobs:
   terraform-security-check:
@@ -14,7 +13,7 @@ jobs:
         working-directory: terraform
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Setup Terraform
@@ -26,7 +25,5 @@ jobs:
       - name: Terraform Init
         run: terraform init
 
-      - name: Run tfsec Security Scan
+      - name: Run tfsec scan
         uses: aquasecurity/tfsec-action@v1.0.0
-
-        
