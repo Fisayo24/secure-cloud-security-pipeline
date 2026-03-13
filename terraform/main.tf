@@ -6,8 +6,8 @@ secure-cloud-security-pipeline
 │   └── github-actions.yml
 ├── security
 │   ├── tfsec-scan.yml
-│   └── iam-policies
-├── monitoring
+|   └── iam-policies
+monitoring
 cloudwatch-alerts.tf
 
 resource "aws_s3_bucket" "secure_pipeline_logs" {
