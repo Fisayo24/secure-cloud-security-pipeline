@@ -1,5 +1,4 @@
 
-:main.tf
 :providers.tf
 :variables.tf
 :pipeline
