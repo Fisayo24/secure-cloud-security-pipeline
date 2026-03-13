@@ -28,5 +28,5 @@ jobs:
 
       - name: Run tfsec Security Scan
         uses: aquasecurity/tfsec-action@v1.0.0
-          
-      - Test pipeline run
+
+        Test pipeline run
