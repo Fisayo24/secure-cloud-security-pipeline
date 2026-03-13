@@ -1,12 +1,12 @@
 secure-cloud-security-pipeline
-│   ├── main.tf
-│   ├── providers.tf
-│   └── variables.tf
-├── pipeline
-│   └── github-actions.yml
-├── security
-│   ├── tfsec-scan.yml
-|   └── iam-policies
+│    main.tf
+│    providers.tf
+│    variables.tf
+|    pipeline
+│    github-actions.yml
+|    security
+│    tfsec-scan.yml
+|    iam-policies
 monitoring
 cloudwatch-alerts.tf
 
