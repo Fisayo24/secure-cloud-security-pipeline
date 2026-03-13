@@ -1,0 +1,13 @@
+secure-cloud-security-pipeline
+│
+├── terraform
+│   ├── main.tf
+│   └── providers.tf
+│
+├── monitoring
+│   └── cloudwatch-alerts.tf
+│
+├── pipeline
+│   └── github-actions.yml
+│
+└── README.md
